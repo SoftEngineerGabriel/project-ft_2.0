@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+#app{
+    display: grid;
+    align-items: center;
+    height: 90vh;
+    text-align: center;
+}
+
+.time{
+    font-family: sans-serif;
+    color: #323238;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 7rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.buttonsImg{
+    border: 0;
+    background-color: #fff;
+}
