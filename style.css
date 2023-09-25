@@ -8,26 +8,57 @@
     font-size: 62.5%;
 }
 
-#app{
+body{
     display: grid;
-    align-items: center;
-    height: 90vh;
+    height: 100vh;
+    place-content: center;
+}
+
+#app{
+    display: flex;
+    justify-items: center;
     text-align: center;
+
+    gap: 20rem;
+}
+
+.flex{
+    display: flex;
 }
 
 .time{
-    font-family: sans-serif;
     color: #323238;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 7rem;
+    font-family: Roboto;
+    font-size: 126.166px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     text-transform: uppercase;
+
+    gap: 2rem;
 }
 
-.buttonsImg{
-    border: 0;
-    background-color: #fff;
+.controls{
+    place-content: center;
+    gap: 4rem;
+    
 }
+
+ button{
+    font-size: 6rem;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+.sonsCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+}
+
